@@ -1,1 +1,4 @@
-<p>home-page works!</p>
+<app-home-card [covidData]="covidData"></app-home-card>
+<app-top-countries [covidData]="covidData"></app-top-countries>
+<app-confirmed-country (country)="searchCountry($event)"></app-confirmed-country>
+<app-country-chart [country]="countryToSearch"> </app-country-chart>

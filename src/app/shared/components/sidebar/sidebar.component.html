@@ -7,14 +7,14 @@
 
     <div class="navigation">
         <ul class="list-unstyled"> 
-            <li> 
-                <a href="#">Sumary</a>
+            <li [routerLink]="'/home'" routerLinkActive="active"> 
+                <a>Nivel Global</a>
             </li>
-            <li> 
-                <a href="#">By Country</a>
+            <li  [routerLink]="'/pais'" routerLinkActive="active"> 
+                <a>Por pais</a>
             </li>
-            <li> 
-                <a href="#">Live</a>
+            <li [routerLink]="'/live'" routerLinkActive="active"> 
+                <a>En vivo</a>
             </li>
         </ul>
     </div>
